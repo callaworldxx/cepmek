@@ -1,0 +1,59 @@
+body{
+    background-image: url(H.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Montserrat;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 20px 20px;
+	display: inline-block;
+    color: #517d9c;
+    font-weight: bold;
+}
+header ul li a:hover{
+    display: block;
+    border-radius: 2rem;
+	background-color: #517d9c;
+	color: white;
+}
+
+h2{
+    margin-top: 100px;
+    padding-right: 500px;
+    color: #517d9c;
+}
+
+.form{
+    color: white;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px;
+    margin-top: 40px;
+}
+.form tr td {
+    font-weight: bold;
+    padding: 8px 20px;
+    text-align: left;
+}
+
+
